@@ -1,0 +1,20 @@
+{
+  "name": "taller-automotriz-api",
+  "version": "1.0.0",
+  "description": "API REST - Sistema de Citas, Refacciones y Expedientes para un Taller Automotriz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
