@@ -41,7 +41,7 @@ app.use('/api/vehiculos', vehiculosRoutes);
 app.use('/api/citas', citasRoutes);
 
 app.listen(PORT, (error) => {
-  if (error) throw error; // por ejemplo, si el puerto ya está ocupado
+  if (error) throw error; 
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
   console.log(`Documentación Swagger en http://localhost:${PORT}/api-docs`);
 });
